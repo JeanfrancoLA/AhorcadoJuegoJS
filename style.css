@@ -1,0 +1,56 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.header{
+    background-color: #000763;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.header__title{
+    font-size: 4rem;
+    margin: 0;
+    color: #fff;
+}
+
+#refreshGame{
+    display: none;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.main-title{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.palabra{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.imagen-container{
+    width: 25rem;
+}
+
+.imagen{
+    width: 100%;
+}
+
+

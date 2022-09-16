@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Juego Ahorcado</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">Ahorcado</h1>
+    </header>
+
+    <main class="main">
+      <p class="main-title">Introduzca una letra:</p>
+
+      <form>
+        <input type="text" maxlength="1" id="letraIngresada" />
+        <button id="letra">Verificar Letra</button
+        ><button id="refreshGame">Volver a Jugar</button>
+      </form>
+
+      <p id="palabraJugada" class="palabra"></p>
+
+      <figure class="imagen-container">
+        <img
+          src="images/img0.png"
+          alt="imagen"
+          id="imagenAhorcado"
+          class="imagen"
+        />
+      </figure>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
